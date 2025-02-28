@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模擬用</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">サイト</a></h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="service.html">サービス</a>
+        </li>
+        <li>
+          <a href="profile.html">プロフィール</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div>
+    <h2>お問い合わせ</h2>
+  </div>
+  <form class="contact">
+    <p>お問い合わせは電話かメールかお問い合わせフォームからお願いします。</p>
+    <p><電話番号></p>
+    <p>000-0000-0000</p>
+    <p><メールアドレス></p>
+    <p>00@00</p>
+    <p><お問い合わせフォーム></p>
+    <p><span>※全て必須となります。</span></p>
+    <labelrequired>
+      <p>名前</p>
+      <input type="text" required>
+    </label>
+    <label required>
+      <p>メールアドレス</p>
+      <input type="emali" required>
+    </label>
+    <label>
+      <p>お問い合わせ内容</p>
+      <select required>
+        <option value="">--お問い合わせ内容を選択してください--</option>
+        <option value="お問い合わせ">お問い合わせ</option>
+        <option value="質問">質問</option>
+        <option value="その他">その他</option>
+      </select>
+    </label>
+    <label>
+      <p>内容</p>
+      <textarea required></textarea>
+    </label>
+    <div>
+      <button>送信</button>
+    </div>
+  </form>
+
+  <footer>
+    <small>(c) tenpure</small>
+  </footer>
+</body>
+</html>
